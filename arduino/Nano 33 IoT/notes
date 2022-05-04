@@ -1,0 +1,5 @@
+In the Arduino IDE, install:
+	Arduino SAMD Boards (32-bits ARM Cortex-M0+)
+
+Here's the webpage for the board
+    http://docs.arduino.cc/hardware/nano-33-iot

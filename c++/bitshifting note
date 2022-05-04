@@ -1,0 +1,12 @@
+Bitshifting can sometimes return unexpected values,
+make sure you force the bitshift to the amount of bits
+that you want. 
+
+E.g., suppose x is a 64 bit variable, make sure you force
+the bitshift to output 64 bits
+
+x = (uint64_t) x << 40; // to bitshift 40 digits
+
+You can also use <<=
+
+var <<= 2;
